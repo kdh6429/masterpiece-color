@@ -1,0 +1,33 @@
+.preview-wrapper {
+    height: calc(100vh - 65px);
+    width: calc(100% - 2px);
+    border: 1px solid #E9E9E9;
+
+    .body-container{
+        width: calc(100% - 161px);
+        display: inline-block;
+        text-align: center;
+        border-right: 1px solid #E9E9E9;
+    }
+
+    .side-container {
+
+        width: 160px;
+        display: inline-block;
+        vertical-align: top;
+
+        height: calc(100vh - 60px);
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    @media screen and (max-width: 960px) {
+        .body-container{
+            width: 100%
+        }
+    
+        .side-container {
+            display: none;
+        }
+    }
+}

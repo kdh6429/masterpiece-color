@@ -1,0 +1,116 @@
+
+    .imageInfo-wrapper {
+        width: 100%;
+
+        .image-wrapper {
+            width: 90%;
+            margin: auto;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            
+            border-bottom: 1px solid #E9E9E9;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .previewIndexNav {
+            font-size: 14px;
+            text-align: center;
+            span {
+                cursor: pointer;
+            }
+        }
+
+        .colorInfo-wrapper {
+            .title {
+                margin-top: 10px;
+                font-size: 13px;
+                margin-bottom: 5px;
+                margin-left: 10px;
+            }
+            .color {
+                .label {
+                    display: inline-block;
+                    font-size: 12px;
+                    line-height: 20px;
+                    vertical-align: top;
+                    margin-right: 5px;
+                    margin-left: 12px;
+                }
+            }
+        }
+
+        .contrast-wrapper{
+            margin-top: 15px;
+            text-align: center;
+            border-top: 1px solid #E9E9E9;
+
+            .title {
+                font-size: 13px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                text-align: left;
+                color: #7b7878;
+                margin-left: 10px;
+            }
+            .contrast {
+                width: 100%;
+                display: inline-block;
+                text-align: left;
+                margin-left: 12px;
+
+                color: rgb(134, 134, 134);
+                .circle {
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    display: inline-block;
+                    border: 1px solid;
+                    margin-left: 1px;
+                }
+                .label{
+                    font-size: 12px;
+                    display: inline-block;
+                    vertical-align: top;
+                    margin-left: 5px;
+                    margin-top: 2px;
+                }
+                .label[data-label='Very Good']{
+                    color:#598e64;
+                }
+                .label[data-label='Good']{
+                    color:#598e64;
+                }
+                .label[data-label='Weak']{
+                    color:rgb(180, 71, 71);
+                }
+                .label[data-label='Bad']{
+                    color:rgb(180, 71, 71);
+                }
+            }
+        }
+        .share-wrapper{
+            border-top: 1px solid #E9E9E9;
+            margin-top: 10px;
+            padding-top: 5px;
+            font-size: 11px;
+            color: rgb(88, 88, 88);
+            cursor: pointer;
+            text-align: center;
+            svg {
+                fill: rgb(103, 103, 103);
+            }
+            span {
+                line-height: 24px;
+                vertical-align: top;
+                padding-left: 3px;
+            }
+            span.active {
+                background-color: rgb(255, 255, 175);
+                color:rgb(255, 62, 62)
+            }
+        }
+        
+    }

@@ -1,0 +1,64 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="365px" height="650px" viewBox="0 0 365 650" style="enable-background:new 0 0 365 650;" xml:space="preserve">
+  <style type="text/css" class="ng-binding">
+    .p-color {
+      fill: #5577ff;
+    }
+
+    .pt-color {
+      fill: #000000;
+    }
+
+    .pt-color-stroke {
+      stroke: #000000;
+    }
+
+    .p-color-light {
+      fill: #90a5ff;
+    }
+
+    .p-color-dark {
+      fill: #004ccb;
+    }
+
+    .pt-color-light {
+      fill: #000000;
+    }
+
+    .pt-color-dark {
+      fill: #ffffff;
+    }
+
+    .s-color {
+      fill: #8a67e0;
+    }
+
+    .st-color {
+      fill: #000000;
+    }
+
+    .st-color-stroke {
+      stroke: #000000;
+    }
+
+    .s-color-light {
+      fill: #be96ff;
+    }
+
+    .s-color-dark {
+      fill: #573bad;
+    }
+  </style>
+  <g>
+    <rect x="0.5" y="267.2" class="void-0" width="363.6" height="379.8"></rect>
+    <rect x="229.7" y="418.7" class="opacity-26" width="118.2" height="2"></rect>
+    <rect x="229.7" y="418.7" class="s-color" width="70.7" height="2"></rect>
+    <path class="s-color" d="M300.5,415c-2.7,0-4.9,2.2-4.9,4.9c0,2.7,2.2,4.9,4.9,4.9c2.7,0,4.9-2.2,4.9-4.9 C305.5,417.2,303.3,415,300.5,415"></path>
+    <rect x="0.5" y="89.4" class="void-2" width="363.6" height="242.4"></rect>
+    <circle class="s-color" cx="322.6" cy="331.5" r="25.4"></circle>
+    <line class="fab-stroke pt-color-stroke st-color-stroke" x1="322.6" y1="318.5" x2="322.6" y2="343.7"></line>
+    <line class="fab-stroke pt-color-stroke st-color-stroke" x1="335.2" y1="331.1" x2="310" y2="331.1"></line>
+    <rect x="0.5" y="0.5" class="p-color-dark" width="363.6" height="24.2"></rect>
+    <rect x="0.5" y="24.8" class="p-color" width="363.6" height="64.6"></rect>
+    <text transform="matrix(1 0 0 1 32.217 65.1794)" class="pt-color title">Text</text>
+  </g>
+</svg>

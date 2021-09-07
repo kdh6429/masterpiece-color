@@ -1,21 +1,20 @@
 import React from 'react'
-import logo from './logo.svg'
+import { Router, Route } from "react-router-dom";
+import Preview from "./pages/Preview"
+import Landing from "./pages/Landing"
+import Header from "./components/Header"
+import history from "./history"
 import './App.scss'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a className="App-link" href="https://github.com/EliEladElrom/react-tutorials" target="_blank" rel="noopener noreferrer">
-          Eli Elad Elrom - React Tutorials
-        </a>
-      </header>
-    </div>
-  )
+const App = () => {
+	return (
+		<div className="App">
+			<Header/>
+			<Router history={history}>
+			<Route exact path="/" component={Landing} />
+			<Route exact path="/v" component={Preview} />
+			</Router>
+		</div>
+	  );
 }
-
 export default App
